@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://renthem.se/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.8.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.4" -->
+<!-- generated-on="8 April 2014 12:27" -->
+<!-- Debug: Total comment count: 1 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://renthem.se/</loc>
+		<lastmod>2014-04-08T12:27:28+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://renthem.se/vanliga-fragor/</loc>
+		<lastmod>2014-04-08T12:27:28+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/tjanster-priser/flyttstadning/</loc>
+		<lastmod>2014-04-08T08:23:54+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/tjanster-priser/kontorsstadning/</loc>
+		<lastmod>2014-04-07T22:31:05+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/tjanster-priser/strykning/</loc>
+		<lastmod>2014-04-07T22:26:08+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/tjanster-priser/fonsterputs/</loc>
+		<lastmod>2014-04-07T22:19:23+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/om-rent-hem/</loc>
+		<lastmod>2014-04-07T22:17:14+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/bokningsvillkor/</loc>
+		<lastmod>2014-04-07T18:50:50+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/hur-vi-jobbar/</loc>
+		<lastmod>2014-04-07T09:57:19+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/stadprodukter/</loc>
+		<lastmod>2014-04-07T09:44:01+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 41: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://renthem.se/hemstad-stockholm/</loc>
+		<lastmod>2014-04-02T13:17:08+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 46: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://renthem.se/stadhjalp-stockholm/</loc>
+		<lastmod>2014-04-02T13:16:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/tjanster-priser/storstadning/</loc>
+		<lastmod>2014-04-01T20:32:33+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/tjanster-priser/hemstad/</loc>
+		<lastmod>2014-04-01T20:28:20+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 44: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://renthem.se/lorem-ipsum-dolor-sit-amet/</loc>
+		<lastmod>2014-04-01T20:19:01+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/kontakt/</loc>
+		<lastmod>2014-03-27T19:45:07+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/tjanster-priser/</loc>
+		<lastmod>2014-02-06T00:31:08+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://renthem.se/trygghet/</loc>
+		<lastmod>2014-01-26T22:42:01+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

@@ -1,0 +1,338 @@
+/*
+*   # Form Review
+*   # List Review
+*   # Popup CSS
+*   # Tab Slider
+*   # Responsive
+*/
+
+/*  Form Reiview
+===============================================
+*/
+.wor-form-review-container {
+    width: 500px;
+}
+.wor-form-review-container > div {
+    margin-bottom: 15px;
+}
+.wor-form-review-container .wor-input-field,
+.wor-form-review-container .wro-textarea {
+    border: 1px solid #cdcdcd;
+    box-shadow: none;
+    background-color: #fff;
+    font-size: 13px;
+    line-height: 1.7;
+    padding: 5px 10px;
+}
+.wor-form-review-container .wor-input-field:focus {
+    background-color: #fff;
+}
+.wor-form-review-container .wor-input-field {
+    width: 75%;
+}
+.wor-form-review-container .wro-textarea {
+    width: 100%;
+}
+.wor-form-review-container .wro-button {
+    background-color: #f37920;
+    border-color: #f37920;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 20px;
+}
+.wor-form-review-container img {
+    display: inline-block;
+}
+#mor-rating-text {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.wor-error {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 9px;
+}
+.wor-hide {
+    display: none;
+}
+.mor-left,
+.wor-left {
+    float: left;
+}
+.mor-right,
+.wor-right {
+    float: right;
+}
+.mor-clear,
+.wor-clear {
+    clear: both;
+}
+
+.mor-message {
+	/*margin: 20px 0px;*/
+	font-size: 25px;
+	font-weight: bold;
+	color: green;
+	text-align: center;
+}
+
+/*
+            List Review
+=============================================================
+*/
+
+.wor-list-reviewed-container,
+.wor-list-review-pagination {
+	clear: both;
+    width: 75%;
+}
+.wor-list-reviewed-container img {
+    display: inline-block;
+}
+.wor-reviewed-item {
+    border: 1px solid #cdcdcd;
+	background-color: lightgrey;
+    -webkit-box-shadow: 5px 10px 35px -18px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 10px 35px -18px rgba(0,0,0,1);
+    box-shadow: 5px 10px 35px -18px rgba(0,0,0,1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.wor-review-item-left {
+    color: #161616;
+    margin-bottom: 20px;
+	width: 20%;
+}
+.wor-reviewed-item .wor-review-item-left h3 {
+    margin-bottom: 0px;
+}
+.wor-reviewed-item .wor-review-item-left span {
+    font-size: 13px;
+}
+.wor-review-item-right {
+	width: 80%;
+}
+.wor-entry-content {
+    color: #60646c;
+}
+.wor-list-review-pagination a {
+    border: 1px solid #cdcdcd;
+    color: #96588a;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.wor-reviewed-top {
+    position: relative;
+}
+.mor-rating-time-publish {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.wor-admin-comment {
+    border-top: 1px solid grey;
+}
+.wor-admin-comment h3 {
+    font-style: italic;
+    width: 80% !important
+}
+/*
+        Popup CSS
+==============================================================
+*/
+.popup_back {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.popup_cont {
+    border: 7px solid orange;
+    position: fixed;
+    z-index: 102;
+}
+
+.preloader {
+    z-index: 101;
+}
+.popup_close {
+    color: #888;
+    cursor: pointer;
+    position: absolute;
+    padding: 5px;
+    right: 5px;
+    top: 0;
+}
+
+.popup_close:hover {
+    color: #111;
+}
+
+.popup_back {
+    cursor: pointer;
+    background-color: #222;
+}
+
+div.popup {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 3px 10px #222;
+}
+
+.preloader {
+    left: 50%;
+    margin: -10px 0 0 -25px;
+    position: fixed;
+    top: 50%;
+}
+
+/*
+ *   Tab Slider
+=============================================================
+*/
+
+.pollSlider {
+    background:#fff;
+    box-sizing: border-box;
+    -webkit-box-shadow: -2px 3px 5px -2px rgba(0,0,0,1);
+    -moz-box-shadow: -2px 3px 5px -2px rgba(0,0,0,1);
+    box-shadow: -2px 3px 5px -2px rgba(0,0,0,1);
+    width:265px;
+    right:0px;
+    margin-right: -265px;
+    height: 100%;
+    position:fixed;
+    top: 0px;
+    overflow-y: scroll;
+    padding: 20px 10px;
+    z-index: 99999;
+}
+.pollSlider .wor-tab-slide-item {
+    -webkit-box-shadow: 5px 10px 35px -18px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 10px 35px -18px rgba(0,0,0,1);
+    box-shadow: 5px 10px 35px -18px rgba(0,0,0,1);
+    padding: 10px;
+    border: 1px solid #cdcdcd;
+    margin-bottom: 15px;
+}
+.wor-tab-slide-item p {
+    margin-bottom: 15px;
+}
+.pollSlider .wor-tab-slide-item-header {
+    position: relative;
+}
+.wor-tab-slide-item-header .mor-rating-time-publish,
+.wor-tab-slide-item-footer {
+    font-size: 14px;
+}
+.wor-tab-slide-item h4,
+.wor-tab-slide-item p {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.wor-tab-slide-item-footer {
+    text-align: right;
+    font-style: italic;
+}
+.pollSlider img {
+    display: inline-block; !important;
+}
+#pollSlider-button {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: fixed;
+    width: 60px;
+    height: 110px;
+    right: 0px;
+    background: #f37920;
+    top: 40%;
+    z-index: 99999;
+}
+.pollSldier-button-text span {
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    line-height: 18px;
+}
+
+.wor-close-tab-button {
+    background: #f37920;
+    background-image: url('../images/right-arrow-mobile.png');
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #f37920;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    display: none;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 10px;
+    width: 100px;
+    float: right;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.wor-close-tab {
+    background-image: url('../images/right-arrow.png');
+    background-position: center center;
+    cursor: pointer;
+    height: 100%;
+    display: block;
+    text-indent: -9999px;
+}
+.wor-tab-hide {
+    display: none !important;
+}
+/*
+        Responsive
+==============================================================
+*/
+
+@media ( max-width: 540px ) {
+    .wor-form-review-container {
+        width: 100%;
+    }
+    .wor-form-review-container .wor-input-field {
+        width: 100%;
+    }
+	.wor-review-item-left {
+		width: 100%;
+	}
+	.wor-review-item-right {
+		width: 100%;
+	}
+	.mor-rating-time-publish {
+		position: relative;
+	}
+	.wor-reviewed-top {
+		margin-bottom: 10px;
+	}
+}
+
+@media ( max-width: 350px ) {
+    .wor-close-tab-button {
+        display: block;
+    }
+    #pollSlider-button {
+        width: 45px;
+    }
+}

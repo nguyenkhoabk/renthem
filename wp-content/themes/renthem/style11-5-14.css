@@ -1,0 +1,12 @@
+/*
+Theme Name: Rent Hem Stockholm
+Author: Copyrighted by Renthem.se
+Author URI: http://www.renthem.se
+Description: Theme for "renthem.se"
+Version: 1.0
+*/
+
+.su-row .su-column {
+border-left: 1px solid #DDD;
+padding-left: 40px;
+}

@@ -1,0 +1,448 @@
+body {
+	background-color:#e5e9ec;
+	font-family:Arial;
+	margin:0;
+	padding:0;
+	padding-top:20px;
+}
+
+#book-wrap a {
+	text-decoration:none;
+	font-size: 13px;
+	color: #576475;
+}
+#book-wrap table {
+ 	   border-collapse: collapse;
+ 	   width:100%;
+ }
+
+#book-wrap .book-content table, th, td {
+	border:1px solid #e8edf1;	
+	padding:5px 5px 5px 5px;
+	text-align:center;
+	color: #576475;
+	font-size: 13px;
+
+}
+ #book-wrap thead {
+ 	background-color:#fbfbfb;
+ 		font-weight:bold;
+ }
+ 
+  #book-wrap tbody {
+ 	font-weight:normal;
+ 	font-size:12px;
+ 	text-align: left !important;
+ }
+   #book-wrap tbody td {
+
+ 	text-align: left !important;
+ }
+#book-wrap {
+	width:90%;
+	
+	margin:auto;
+	background-color:#fff;
+	border-radius:5px 5px 5px 5px;
+	padding:1% 1% 1% 1%;
+	font-family:Arial;
+}
+#book-wrap input[type=text], textarea, select {
+	border: 1px solid #e5e9ec;
+	padding: 7px 12px 9px;
+	border-radius:5px;
+}
+
+
+#book-wrap #book-head {
+
+	width:100%;
+	vertical-align: middle;
+}
+#book-wrap h1 {
+	width:100%;
+	font-weight:normal;
+	color: #505458;
+	padding-top:5px;
+	font-size:16px;
+}
+#book-wrap .book-title {
+	width:100%;
+	float:left;
+	color: #505458;
+
+	font-size:16px;
+}
+
+#book-wrap .book-content {
+	width:100%;
+}
+#book-wrap #book-head  .book-title {
+	width:50%;
+}
+#book-wrap #book-head .book-date {
+	width:30%;
+	float:left;
+}
+
+#book-wrap #book-head .book-date a {
+	color:#f35958;
+	 font-size: 25px; 
+	text-decoration:none;
+}
+#book-wrap #book-head .book-button {
+	width:20%;
+	float:left;
+	text-align:center;
+}
+
+.clear {
+	clear:both;
+}
+
+#book-wrap #book-calendar {
+	
+	padding-top:20px;
+	width:100%;
+}
+
+
+#book-wrap #book-calendar .book-content .staff-box {
+	background-color:#f35958;
+	color:#FFFFFF;
+}
+#book-wrap #book-calendar .book-content .staff-box-name {
+	background-color:#f35958;
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:normal;
+	font-size: 12px;
+	text-align:left;
+}
+
+
+#book-wrap .btn {
+	display: inline-block;
+	padding: 7px 12px 9px;
+	border:0px;
+	margin-bottom: 0px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border:0px;
+	border-radius: 5px;
+}
+
+#book-wrap .b-add {
+	color: #FFF;
+	background-color: #1F3853;
+	width:90%;
+}
+
+#book-wrap .b-cancel {
+	color: #FFF;
+	background-color: #f35958;
+	padding-left:30px;
+	padding-right:30px;
+}
+#book-wrap .b-delete {
+	color: #FFF;
+	background-color: #355996;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+#book-wrap .b-save {
+	color: #FFF;
+	background-color: #fbb05e;
+	padding-left:30px;
+	padding-right:30px;
+}
+#book-wrap .b-copy-booking {
+	color: #FFF;
+	background-color: #ffe329;
+	padding-left:30px;
+	padding-right:30px;
+}
+#book-wrap .b-cleaning-dates {
+	color: #FFF;
+	background-color: #6ac5f5;
+	padding-left:30px;
+	padding-right:30px;
+}
+#book-wrap .b-default {	
+	color: #FFF;
+	background-color: #0aa699;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+#book-wrap .b-email-on {	
+	color: #000;
+	background-color: #b1f926;
+	padding-left:30px;
+	padding-right:30px;
+}
+#book-wrap .b-email-off {	
+	color: #FFF;
+	background-color: #ed3b23;
+	padding-left:30px;
+	padding-right:30px;
+}
+.left {
+float:left;
+margin-right:5px !important;
+}
+
+#book-wrap #book-pending {
+	
+	padding-top:20px;
+	width:100%;
+}
+
+#book-wrap #book-staff {
+	padding-top:0px;
+	width:100%;
+}
+
+
+#book-wrap #book-setting{
+	padding-top:20px;
+	text-align:right;
+	width:100%;
+}
+
+
+#book-wrap #book-pending .book-content {
+	width:100%;
+	
+}
+
+#book-wrap .book-add .close {
+	float:right;
+	color:#999999;
+	font-size:14px;
+	font-weight:bold;
+	margin-top:10px;
+	margin-right:10px;
+}
+#book-wrap .book-add h1 {
+	padding:0px 0px 0px 0px;
+}
+#book-wrap .book-add {
+	margin-top:20px;
+	width:100%;
+	border-top:2px solid #e5e9ec;
+	border-bottom:2px solid #e5e9ec;
+	padding-bottom:10px;
+}
+
+#book-wrap .book-add  .booking-add-box {
+	width:100%;
+}
+
+#book-wrap .book-add  .booking-add-box  .booking-column-2 {
+	width:48%;
+	padding-right:1%;
+	float:left;
+}
+#book-wrap .book-add  .booking-add-box  .booking-column-1 {
+	width:98%;
+	float:left;
+}
+
+#book-wrap .book-add  .booking-add-box .row  {
+	width:98%;
+	padding:1% 2% 1% 2%;	
+	color: #505458;
+	font-size:13px;
+}
+
+#book-wrap .book-add  .booking-add-box  label {
+	width:100%;
+	display:block;
+	color: #505458;
+	font-size:13px;
+	padding-bottom:5px;
+}
+
+#book-wrap .book-add  .booking-add-box textarea {
+	width:100%;
+	border: 1px solid #e5e9ec;
+	padding: 7px 12px 9px;
+	border-radius:5px;
+}
+
+#book-wrap .book-add  .booking-add-box input[type=text],  select {
+	width:100%;
+	border: 1px solid #e5e9ec;
+	padding: 7px 12px 9px;
+	border-radius:5px;
+}
+#book-wrap .book-add  .booking-add-box .tool-bar {
+	background-color:#f2f4f6;
+	width:96%;
+	text-align:right;
+	margin-top:10px;
+	padding:1% 2% 1% 2%;
+}
+
+
+.right-vline {
+	border-left:1px solid  #e5e9ec;
+}
+
+
+#book-edit-form ,#book-add-form , #book-add-staff, #book-add-service, #book-edit-staff, #book-edit-service{
+	display:none;
+	
+}
+
+#bookCalendar {
+	text-align: center;
+}
+
+#book-service , #book-staff, #book-history {
+	display:none;
+	border-top: 1px solid #e5e9ec;
+	margin-top:15px;
+}
+
+
+
+
+#book-wrap .box {
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#book-wrap #book-service  .book-title {
+	width:80%;
+	padding-top:5px;
+}
+
+#book-wrap #book-service .book-button {
+	width:20%;
+	float:left;
+	text-align:center;
+}
+
+#book-wrap #book-staff  .book-title {
+	width:80%;
+}
+
+#book-wrap #book-staff .book-button {
+	width:20%;
+	float:left;
+	text-align:center;
+}
+
+
+
+
+#book-wrap #price-list  .book-title {
+	width:80%;
+	padding-top:5px;
+}
+
+#book-wrap #price-list .book-button {
+	width:20%;
+	float:left;
+	text-align:center;
+}
+
+#book-wrap #price-list  .book-title {
+	width:80%;
+}
+
+#book-wrap #price-list .book-button {
+	width:20%;
+	float:left;
+	text-align:center;
+}
+
+#price-list {
+	display:none;
+}
+
+
+.alert-line {
+	z-index:2000;
+
+	display:none;
+	position: fixed;
+	width:100%;
+	top:0;
+	margin:0;
+	padding-top: 10px;
+	padding-bottom:10px;
+	text-align:center;
+	border-bottom:1px solid #E5E5E5;
+	 text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	 color:#FFFFFF;
+}
+.alert-line h3 {
+	margin:0px;
+font-family: Arial !important;
+	color:#FFFFFF !important;
+	font-size:25px;
+}
+
+
+#book_info_popup_display {
+	z-index:2000;
+	background-color:#dedede;
+	display:none;
+	height:50px;
+	position: fixed;
+	width:100%;
+	top:0;
+	margin:0;
+	padding-top: 10px;
+	padding-bottom:15px;
+	text-align:center;
+	border-bottom:2px solid #f35958;
+	 text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	 color:#FFFFFF;
+}
+
+
+#preload {
+	width:100%;display:none;height:50px;
+	text-align:center;
+}
+
+/* Style for Public Nation days Sweeden */
+
+tbody.datepickerDays td.datepickerSpecial a,
+tbody.datepickerDays td.datepickerSpecial {
+    background: #f35958 !important;
+    color: #fff !important;
+}
+
+tbody.datepickerDays td.datepickerSaturday,
+tbody.datepickerDays td.datepickerSunday,
+tbody.datepickerDays td.datepickerSunday a,
+tbody.datepickerDays td.datepickerSaturday a {
+	background: #fff !important;
+	color: #999 !important;
+}
+
+tbody.datepickerDays td.datepickerSpecial a:hover,
+tbody.datepickerDays td.datepickerSunday a:hover,
+tbody.datepickerDays td.datepickerSaturday a:hover {
+	color: #88c5eb !important;
+}
+
+tbody.datepickerDays td.datepickerNotInMonth,
+tbody.datepickerDays td.datepickerNotInMonth a,
+tbody.datepickerDays td.datepickerNotInMonth a:hover {
+	background: #fff !important;
+    color: #f2f4f6 !important;
+}
+
+
+tbody.datepickerDays td.datepickerSelected,
+tbody.datepickerDays td.datepickerSelected a {
+    background: #136A9F !important;
+}

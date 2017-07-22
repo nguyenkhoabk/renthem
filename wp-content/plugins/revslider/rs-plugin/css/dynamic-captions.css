@@ -1,0 +1,30 @@
+.tp-caption.new {
+font-size:38px;
+line-height:38px;
+font-weight:600;
+font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;
+color:#ffffff;
+text-decoration:none;
+background-color:transparent;
+text-shadow:1px 1px 1px rgb(51, 51, 51);
+text-align:center;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+.tp-caption.newmini {
+font-size:20px;
+line-height:22px;
+font-weight:600;
+font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;
+color:#ffffff;
+text-decoration:none;
+background-color:transparent;
+text-shadow:1px 1px 1px rgb(51, 51, 51);
+text-align:center;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+

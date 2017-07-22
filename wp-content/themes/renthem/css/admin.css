@@ -1,0 +1,65 @@
+#hour-top {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.hour_page_Hour_list #hour-top {
+    margin-bottom: 0;
+}
+
+#top-col {
+    width: 70%;
+}
+
+.hour-col {
+    float: left;
+    margin-left: 1%;
+    overflow: hidden;
+    width: 30%;
+}
+
+.hour-col input{
+    display: block;
+    width: 91%;
+}
+
+#hour-top input[type="submit"] {
+    margin-top: 5px;
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+#hour-top label {
+    margin-top: 8px;
+}
+
+#cat2_cond[multiple], #cat3_cond[multiple]{ min-width: 15em; }
+#cat2_cond[multiple] { height: 7em; }
+#cat3_cond[multiple] { height: 13em; }
+
+.border-left {
+    border-left: 1px solid;
+    padding-left: 2%;
+}
+
+#configuration li span.pitem {
+    background-color: #888888;
+    border: 1px solid #444444;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    width: 70%;
+}
+
+#configuration li a {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+#configuration li {
+    margin: 15px 0;
+    min-height: 1.8em;
+}

@@ -1,0 +1,124 @@
+<?php 
+
+/**
+* Template Name: Startowa
+*
+*/
+
+get_header(); ?>
+
+
+
+
+<div id="top-bar-1">
+
+
+
+<a class="logo" href="<?php echo get_home_url(); ?>"></a>
+
+<div class="mini">
+<div class="topmini"></div>
+<div class="top-number">info@renthem.se <br /> 08-82 44 77 </div>
+</div>
+
+<div class="big">
+<div class="top-number">info@renthem.se <br /> 08-82 44 77 </div>
+<div class="top"></div>
+</div>
+
+
+
+</div><!-- /#top-bar-1 -->
+
+
+<div id="menu-bar-1">
+
+
+
+
+			<?php wp_nav_menu(array('menu' => 'Menu')); ?>
+
+
+</div><!-- /#menu-bar-1 -->
+
+
+
+
+<div id="slider-1">
+
+<img class="women"src="<?php bloginfo('template_url'); ?>/images/women.png" >
+
+ <?php dynamic_sidebar( 'slider' ); ?> 
+
+</div><!-- /#slider -->
+
+
+<div class="bodyhome">
+ <?php dynamic_sidebar( 'homeinfo' ); ?> 
+</div>
+
+
+
+<div id="main-bar">
+
+<div class="content">
+
+
+
+<div class="block">
+
+<center><img src="<?php bloginfo('template_url'); ?>/images/circle-1.png"></center>
+
+<?php ShowPageShort(51); ?><!-- 21/51 -->
+
+</div>
+
+
+
+<div class="block">
+
+<center><img src="<?php bloginfo('template_url'); ?>/images/circle-2.png"></center>
+
+<?php ShowPageShort(53); ?><!-- 25/53 -->
+
+</div>
+
+
+
+<div class="block">
+
+<center><img src="<?php bloginfo('template_url'); ?>/images/circle-3.png"></center>
+
+<?php ShowPageShort(55); ?><!-- 27/55 -->
+
+</div>
+
+
+
+<div class="block">
+
+<center><img src="<?php bloginfo('template_url'); ?>/images/circle-4.png"></center>
+
+<?php ShowPageShort(57); ?><!-- 29/57 -->
+
+</div>
+
+
+
+</div>
+
+</div><!-- /#main-bar -->
+
+
+
+<?php dynamic_sidebar( 'bignews' ); ?>
+<?php dynamic_sidebar( 'news' ); ?>
+
+
+
+
+
+
+
+<?php get_footer(); ?>
+

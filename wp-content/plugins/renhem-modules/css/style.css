@@ -1,0 +1,267 @@
+/**
+ *  # FORM BOOKING
+ *  # MANAGE WINDOWS
+ *  # FANCY BOX
+ *  # RESPONSIVE
+ */
+
+/*  FORM BOOKING
+===========================================================
+*/
+
+.rm-frontent-booking-container {
+    position: relative;
+    min-height: 950px;
+}
+
+.rm-frontent-booking-container #calendar-cont {
+    border: 1px solid #D1D1D1;
+    float: left;
+    top: 70px;
+    margin-top: 0;
+    /*margin-left: 180px;*/
+}
+
+div[class^='rm-bookoffer-container'] .bookOffer-row {
+    background-color: #f37920;
+    height: 35px;
+}
+
+div[class^='rm-bookoffer-container'] .bookOffer-row > div {
+    height: 23px;
+}
+
+div[class^='rm-bookoffer-container'] .bookOffer-row .service-name {
+    font-size: 15px;
+    padding: 2px 5px;
+}
+
+div[class^='rm-bookoffer-container'] .bookOffer-row .service-price {
+    font-size: 23px;
+    padding: 0px 4px;
+}
+
+div[class^='rm-bookoffer-container'] .bookOffer-row .service-choose {
+    font-size: 13px;
+}
+
+div[class^='rm-bookoffer-container'] .bookOffer-row .service-choose span {
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+#bookOffer div[class^='rm-bookoffer-container'] .bookOffer-row .service-choose .big-checkbox + label {
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.rm-hide {
+    display: none;
+}
+/*  MANAGE WINDOWS
+===========================================================
+*/
+.rm-windows-container {
+    padding: 25px 0;
+    width: 100%;
+    z-index: 999999;
+}
+.rm-row {
+    margin: 20px 0;
+}
+.rm-windows-container .rm-sm-col {
+    width: 20%;
+    float: left;
+}
+.rm-window {
+    text-align: center;
+    height: 250px;
+}
+.rm-window-title p {
+    margin: 0;
+}
+.rm-clear {
+    clear: both;
+}
+.seletected-windows h4 {
+    margin: 0;
+}
+.rm-windows-container .rm-btn {
+    display: inline-block;
+    padding: 7px 12px 9px;
+    border: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+}
+.rm-windows-container .b-save {
+    color: #FFF;
+    background-color: #fbb05e;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.rm-windows-container .b-cancel {
+    color: #FFF;
+    background-color: #f35958;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.button-control-container {
+    text-align: center;
+}
+.seletected-windows input[type='text'] {
+    width: 80%;
+}
+.seletected-windows,
+.button-control-container {
+    padding-left: 15px;
+}
+#display-selected-windows {
+    font-weight: bold;
+    color: #63a338;
+}
+/*      FANCY BOX
+=================================================
+*/
+
+/* Add animation (Chrome, Safari, Opera) */
+@-webkit-keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* Add animation (Standard syntax) */
+@keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* The modal's background */
+.rm-modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Display the modal when targeted */
+.rm-modal:target {
+    display: table;
+    position: absolute;
+}
+
+.rm-display-model {
+    display: table;
+    position: absolute;
+}
+/* The modal box */
+.rm-modal-dialog {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* The modal's content */
+.rm-modal-dialog .rm-modal-content {
+    margin: auto;
+    background-color: #f3f3f3;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    border: 1px #777 solid;
+    text-align: justify;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /* Add animation */
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 0.5s;
+}
+
+/* The button used to close the modal */
+.rm-closebtn {
+    text-decoration: none;
+    /*float: right;*/
+    font-size: small;
+    font-weight: bold;
+    color: #fff;
+}
+
+.rm-closebtn:hover,
+.rm-closebtn:focus {
+    /*color: #000;*/
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rm-container {
+    padding: 2px 16px;
+}
+
+header {
+    background-color: #5cb85c;
+    font-size: 25px;
+    color: white;
+}
+
+footer {
+    background-color: #5cb85c;
+    font-size: 20px;
+    color: white;
+}
+/*  RESPONSIVE
+===========================================================
+*/
+@media ( min-width: 901px ) and ( max-width: 1095px ) {
+    .rm-windows-container .rm-sm-col {
+        width: 25%;
+    }
+}
+
+@media ( min-width: 982px ) {
+    .rm-frontent-booking-container #calendar-cont {
+        margin-left: 180px;
+    }
+}
+
+@media ( min-width: 900px ) and ( max-width: 981px ) {
+    .rm-frontent-booking-container #calendar-cont {
+        margin-left: 105px;
+    }
+}
+
+@media ( min-width: 705px ) and ( max-width: 900px ) {
+    .rm-windows-container .rm-sm-col {
+        width: 33%;
+    }
+}
+
+@media ( max-width: 720px ) {
+    .rm-window-wrap .service-icon {
+        display: none;
+    }
+    .rm-window-wrap #display-selected-windows {
+        display: block;
+    }
+}
+
+@media ( min-width: 486px ) and ( max-width: 704px ) {
+    .rm-windows-container .rm-sm-col {
+        width: 50%;
+    }
+}
+
+@media ( max-width: 485px ) {
+    .rm-windows-container .rm-sm-col {
+        width: 100%;
+    }
+}

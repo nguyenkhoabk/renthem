@@ -1,0 +1,576 @@
+/*
+*   #Core
+*   #List Windows
+*   #Tooltip Styles
+*	#Order Information
+*   #Popup CSS
+*   #Responsive
+*/
+
+/*  Core
+=============================================
+*/
+.mw-left {
+	float: left;
+}
+.mw-right {
+	float: right;
+}
+.mw-clear {
+	clear: both;
+}
+.mw-message {
+	/*margin: 20px 0px;*/
+	font-size: 25px;
+	font-weight: bold;
+	color: green;
+	text-align: center;
+}
+/*  List Windows
+=============================================
+*/
+.mw-row {
+	margin-bottom: 35px;
+}
+form.mw-container {
+    width: 88%;
+    margin: 0 auto;
+}
+.mw-window {
+	float: left;
+	position: relative;
+	min-height: 295px;
+	text-align: center;
+	width: 25%;
+}
+.mw-window a:hover {
+	text-decoration: none;
+}
+p.window-title {
+	margin-bottom: 10px;
+}
+.mw-thumbnail img {
+	margin: 0 auto;
+}
+label.add-option-title {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.mw-calculate {
+	border: 2px solid #d4d0ba;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 5px auto;
+	width: 117px;
+}
+.mw-calculate input[type=number] {
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 2px 4px;
+	/*text-align: center;*/
+	width: 115px;
+}
+
+.mw-init-price {
+	border-top: 2px solid black;
+	padding-top: 8px;
+	margin-top: 5px;
+}
+
+.mw-init-price span {
+	font-size: 35px;
+}
+
+.mw-price-title {
+	font-size: 18px !important;
+}
+
+.mw-init-price p {
+    margin-top: 0px;
+	font-size: 12px;
+}
+
+.mw-place-order .mw-button-place-order {
+	border: 0;
+	background:none;
+	background-color: orange !important;
+	color: #fff;
+	font-size: 1.6rem;
+	padding: 0.8125em 1.625em;
+	cursor: pointer;
+	font-family: "Noto Sans", sans-serif;
+	text-transform: uppercase;
+}
+
+.mw-place-order .mw-button-place-order:hover {
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	background-color: orange !important;
+	background:none;
+}
+
+.mw-place-order .mw-button-place-order:active {
+	padding: 0.8125em 1.625em !important;
+	background-color: orange !important;
+	background:none;
+}
+
+.mw-calculate .mw-quantity {
+	border-radius: 0px;
+	text-align: center;
+	width: 45px;
+	border: none;
+}
+
+.mw-sub {
+	border-right: 2px solid #d4d0ba;
+	cursor: pointer;
+	color: #000000 !important;
+	display: inline-block;
+	height: 100%;
+	padding: 3px 13px;
+}
+.mw-add {
+	border-left: 2px solid #d4d0ba;
+	color: #000000 !important;
+	display: inline-block;
+	padding: 3px 13px;
+}
+
+.mw-sub:link,
+.mw-add:link {
+	color: #000000 !important;
+	text-decoration: none;
+}
+
+.mw-sub:hover,
+.mw-add:hover {
+	color: orange !important;
+	/*background-color: lightgrey;*/
+	text-decoration: none;
+}
+
+.mw-add:visited,
+.mw-sub:visited {
+	color: #000000 !important;
+	text-decoration: none;
+}
+
+.mw-thumbnail {
+    display: inline-block;
+}
+
+#add-more-option {
+	/*width: 23px;*/
+	/*height: 23px;*/
+	-webkit-transform: scale(1.5,1.5);
+	-moz-transform: scale(1.5,1.5);
+	-ms-transform: scale(1.5,1.5);
+	transform: scale(1.5,1.5);
+	margin: 0px;
+}
+#add-more-option-2,
+#add-more-option-3 {
+	/*width: 23px;*/
+	/*height: 23px;*/
+	-webkit-transform: scale(1.5,1.5);
+	-moz-transform: scale(1.5,1.5);
+	-ms-transform: scale(1.5,1.5);
+	transform: scale(1.5,1.5);
+	margin: 0px;
+}
+
+.mw-container .mw-order-information h3 {
+	margin-top: 18px;
+}
+
+.window-option,
+.mw-order-information,
+.mw-order-address,
+.mw-order-address,
+.mw-init-price {
+	margin-left: 30px;
+}
+
+.mw-price-currency,
+#mw-total-price-display {
+	color: green;
+}
+/**
+ * Tooltip Styles
+ ===========================================================
+ */
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+	visibility: hidden;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+    position: absolute;
+    top: 0px;
+    /*left: 3px;*/
+    margin-bottom: 5px;
+    padding: 7px;
+    width: 92%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #000;
+    background-color: hsla(0, 0%, 20%, 0.9);
+    color: #fff;
+    content: attr(data-tooltip);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    /*left: 12%;*/
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+    display: none;
+	position: absolute;
+	/*bottom: 150%;*/
+    top: 30px;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	border-top: 5px solid #000;
+	border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+	visibility: visible;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+
+/*	Order Information
+=======================================================
+*/
+
+.mw-order-information,
+.mw-order-address {
+	padding-bottom: 15px;
+	border-bottom: 1px grey dotted;
+	width: 100%;
+}
+
+.mw-order-address {
+	border-bottom: none;
+}
+
+.mw-order-information h3,
+.mw-order-address h3 {
+	/*padding-left: 15px;*/
+	color: #4a24c0;
+}
+
+.mw-table-row {
+	margin-bottom: 15px;
+}
+
+.mw-order-information label,
+.mw-order-address label {
+	display: block;
+}
+
+.mw-order-information label {
+	margin-bottom: 8px;
+}
+
+.mw-col-1,
+.mw-col-2,
+.mw-col-3,
+.mw-col-4,
+.mw-col-5,
+.mw-col-6,
+.mw-col-8 {
+	float: left;
+}
+.mw-col-1 {
+	width: 8.333333333333333%;
+}
+.mw-col-2 {
+	width: 16.66666666666667%;
+}
+.mw-col-3 {
+	width: 25%;
+}
+.mw-col-4 {
+	width: 33.33333333333333%;
+}
+.mw-col-5 {
+	width: 41.66666666666667%;
+}
+.mw-col-6 {
+	width: 50%;
+}
+.mw-col-8 {
+	width: 66.66666666666666%;
+}
+.mw-col-12 {
+	width: 100%;
+}
+#mw-datepicker {
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.mw-col-1 input[type="text"],
+.mw-col-2 input[type="text"],
+.mw-col-3 input[type="text"],
+.mw-col-4 input[type="text"],
+.mw-col-5 input[type="text"],
+.mw-col-6 input[type="text"],
+.mw-col-8 input[type="text"],
+textarea {
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	width: 90%;
+}
+
+.mw-col-8 input[type="text"] {
+	width: 95%;
+}
+
+.delivery-time-label {
+	cursor: pointer;
+}
+
+.mw-order-address input[type='text'],
+.mw-order-information input[type='text'] {
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+.require-field {
+	margin-left: 10px;
+	color: #ff0000;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.require-element {
+	border: 1px #ff0000 solid;
+}
+
+/**
+ * Tooltip Styles
+ ===========================================================
+ */
+.mw-fancy-container {
+	border: 5px orange solid !important;
+}
+
+/*
+	POPUP.CSS
+ ===========================================================
+ */
+
+.popup_back {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.popup_cont {
+    border: 7px solid orange;
+    position: fixed;
+    z-index: 102;
+}
+
+.preloader {
+    z-index: 101;
+}
+
+/*---------------------
+
+	EDIT BELOW
+
+*/
+
+.popup_close {
+    color: #888;
+    cursor: pointer;
+    position: absolute;
+    padding: 5px;
+    right: 5px;
+    top: 0;
+}
+
+.popup_close:hover {
+    color: #111;
+}
+
+.popup_back {
+    cursor: pointer;
+    background-color: #222;
+}
+
+div.popup {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 3px 10px #222;
+}
+
+.preloader {
+    left: 50%;
+    margin: -10px 0 0 -25px;
+    position: fixed;
+    top: 50%;
+}
+
+/*  Responsive
+============================================================
+*/
+@media ( min-width: 1000px ) {
+	.mw-order-information .mw-col-5 {
+		width: 36.666667%;
+	}
+}
+@media ( max-width: 967px ) {
+	.mw-thumbnail img {
+		margin: 0 auto;
+		width: 90%;
+		height: 91%;
+	}
+	[data-tooltip]:before {
+		width: 82%;
+	}
+}
+@media ( max-width: 810px ) {
+	.mw-thumbnail img {
+		margin: 0 auto;
+		width: 90%;
+		height: 91%;
+	}
+}
+@media ( max-width: 768px ) {
+    .mw-order-information .mw-table-row div[class^="mw-col-"],
+    .mw-order-address .mw-table-row div[class^="mw-col-"] {
+        width: 50%;
+    }
+}
+@media ( min-width: 450px ) and ( max-width: 795px ) {
+	.mw-order-information .mw-table-row div[class^="mw-col-"],
+	.mw-order-address .mw-table-row div[class^="mw-col-"] {
+		width: 100%;
+	}
+	.mw-window {
+		width: 50%;
+		/*margin: 0 auto;*/
+	}
+	[data-tooltip]:before {
+		width: 82%;
+	}
+	.mw-price-currency,
+	#mw-total-price-display {
+		font-size: 30px !important;
+	}
+}
+@media ( max-width: 630px ) {
+    .mw-order-information .mw-table-row div[class^="mw-col-"],
+    .mw-order-address .mw-table-row div[class^="mw-col-"] {
+        float: none;
+        margin-bottom: 10px;
+    }
+	label.add-option-title {
+		display: block;
+		margin-left: 0px;
+	}
+	.window-option,
+	.mw-order-information,
+	.mw-order-address,
+	.mw-order-address,
+	.mw-init-price {
+		margin-left: 0px;
+	}
+	.mw-price-title {
+		display: block;
+		font-size: 18px;
+	}
+}
+@media ( max-width: 450px ) {
+    .mw-order-information .mw-table-row div[class^="mw-col-"],
+    .mw-order-address .mw-table-row div[class^="mw-col-"] {
+        width: 100%;
+    }
+    .mw-window {
+        float: left;
+        position: relative;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+	[data-tooltip]:before {
+		width: 82%;
+	}
+    .mw-calculate .mw-quantity {
+        width: 40px;
+    }
+    .mw-add,
+    .mw-sub {
+        padding: 3px 10px;
+    }
+	label.add-option-title {
+		font-size: 14px;
+	}
+	.mw-thumbnail img {
+		margin: 0 auto;
+		width: 90%;
+		height: 91%;
+	}
+	.mw-window {
+		min-height: 275px;
+	}
+}
+
+@media ( max-width: 420px ) {
+	.mw-price-currency,
+	#mw-total-price-display {
+		font-size: 25px !important;
+	}
+}
+
+@media ( max-width: 350px ) {
+	[data-tooltip]:before {
+		width: 80%;
+	}
+	.mw-window {
+		min-height: 238px;
+	}
+}

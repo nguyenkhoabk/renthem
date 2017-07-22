@@ -1,0 +1,306 @@
+/*body {
+	margin:0;
+	padding:0;
+}
+#bookForm {
+	width:1000px;
+	height:70px;
+	background-color:#d36414;
+	font-family: Arial;
+}
+
+#bookForm  #bookForm-title {
+	width:410px;
+	padding:5px 20px 5px 70px;
+	float:left;
+	
+	font-size: 16px;
+	color:#ffffff;
+}
+#bookForm  #bookForm-title span {
+	font-size:25px !important;
+	font-weight:bold;
+}
+
+#bookForm  #bookFrom-button {
+	width:450px;
+	padding-top:15px;
+	float:left;
+	text-align:right;
+	padding-right:50px;
+}
+
+
+
+#bookForm  #bookFrom-button  input[type=text], select, input[type=button] {
+	border:0px;
+	
+}
+#bookForm  #bookFrom-button   select {
+	padding:9px 10px 9px 10px;
+	box-shadow: 5px 5px 2px #a75204;
+	margin-left:-4px;
+}
+#bookForm  #bookFrom-button  input[type=text] {
+	border-radius:5px 0px 0px 5px;
+	padding:7px 5px 7px 5px;
+	text-align:center;
+	color:#a75204;
+	font-size:18px;
+	font-weight:bold;
+	box-shadow: 5px 5px 2px #a75204;
+}
+#bookForm  #bookFrom-button   input[type=button] {
+	border-radius:0px 5px 5px 0px;
+	background-color:#fa6b03;
+	color:#ffffff;
+	padding:10px 30px 10px 30px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-left:-3px;
+	
+	cursor:pointer;
+	box-shadow: 5px 5px 2px #a75204;
+}
+
+.clearBookForm {
+	clear:both;
+}
+
+
+
+#bookOffer {
+	background-color:#f27920;
+	width:1000px;
+	display:none;
+}
+#bookOffer .bookOffer-row-footer {
+	width:960px;
+	padding:15px 20px 15px 20px;
+	font-size:12px;
+	color:#ffffff;
+	text-align:center;
+}
+
+#bookOffer .bookOffer-row {
+	width:1000px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom:1px dotted #ffffff;
+	margin-bottom:5px;
+}
+
+#bookForm-book {
+		width:1000px;
+		height:40px;
+		background-color:#ffffff;
+}
+#bookForm-book input[type=button] {
+	cursor:pointer;
+	float:right;
+	border-radius:0px 0px 5px 5px;
+	background-color:#fa6b03;
+	color:#ffffff;
+	padding:10px 30px 10px 30px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+#bookOffer .bookOffer-row .service-icon{
+width:125px;
+float:left;
+text-align:right;
+padding-left:20px;
+padding-right:30px;
+}
+#bookOffer .bookOffer-row .service-name{
+	float:left;
+	width:325px;
+	font-size:18px;
+	color:#ffffff;
+	font-weight:bold;
+}
+#bookOffer .bookOffer-row .service-no {
+	width:100px;
+	float:left;
+}
+#bookOffer .bookOffer-row .total {
+	width:415px;
+	padding:5px 5px 5px 5px;
+	float:left;font-size:18px;
+	color:#ffffff;
+	font-weight:bold;
+	text-align:right;
+}
+#bookOffer .bookOffer-row .service-no input[type=text] {
+	width:50px;
+	color:#a75204;
+	font-weight:bold;
+	text-align:center;
+	padding:5px 5px 5px 5px;
+}
+#bookOffer .bookOffer-row .service-price {
+	width:100px;
+	color:#ffffff;
+	font-size:24px;
+	padding-right:50px;
+	text-align:right;
+	font-weight:bold;
+	float:left;
+}
+
+#bookOffer .bookOffer-row .service-price span {
+	font-size:14px;
+}
+#bookOffer .bookOffer-row .service-choose{
+	width:80px;
+	text-align:center;
+	float:left;
+	color:#ffffff;
+	font-size:16px;
+	padding-top:5px;
+}
+#bookOffer .bookOffer-row .service-tool{
+	width:170px;
+	text-align:center;
+	float:left;
+		padding-top:0px;
+}
+
+#bookOffer .bookOffer-row .service-tool a {
+	color:#86c355;
+	text-decoration:none;
+	font-size:18px;
+}
+
+
+
+
+
+
+
+
+
+*/
+
+#book-lightbox {
+display:none;
+	z-index:9999;
+	position:fixed;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	background-image:url("../images/lightbox-bg.png");
+	background-repeat:repeat;
+}
+
+#book-lightbox #popup {
+	width:700px;
+	padding:50px 50px 30px 50px;
+	background-color:#ffffff;
+	border-radius:5px 5px 5px 5px;
+	margin:auto;
+	margin-top:50px;
+}
+
+#book-lightbox #popup #popup-close {
+	background-color:#000;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	border-radius:10px;
+ cursor:pointer;
+	padding:5px 10px 5px 10px;
+	position:absolute;
+	margin-top:-60px;
+	margin-left:730px;
+}
+
+#book-lightbox #popup  #popup-title {
+	color: #F37920;
+font-size: 24px;
+font-weight:bold;
+text-align: left;
+ }
+#book-lightbox #popup  #popup-description {
+font-family: "Calibri";
+font-size:14px;
+padding-top:10px;
+padding-bottom:10px;
+ }
+
+
+ #book-lightbox #popup .class-input {
+	width:90%;
+	border-radius:5px;
+	padding:5px 5px 5px 5px;
+	border:1px solid #dadada;
+}
+#book-lightbox #popup   table {
+	font-size:14px;
+}
+#book-lightbox #popup input[type=submit] {
+	background-color:#F37920;
+	padding:5px 95px 5px 95px;
+	color:#ffffff;
+	font-weight:bold;
+	cursor:pointer;
+	font-size:14px;
+	text-transform:uppercase;
+	border:0px;
+	border-radius:5px;
+}
+
+
+#book-lightbox #popup a {
+	color:#008000;
+	text-decoration:none;
+}
+
+#bookOffer .custom-item label {
+	display: inline;
+}
+
+#bookOffer .regular-checkbox {
+	display: none;
+}
+
+#bookOffer .regular-checkbox + label {
+	background-color: #ffffff;
+	border: 0px solid #cacece;
+
+	padding: 7px;
+	margin-left:10px;
+	margin-right:10px;
+	display: inline-block;
+	position: relative;
+}
+
+
+
+#bookOffer .regular-checkbox:checked + label {
+	background-color: #ffffff;
+	border: 0px solid #adb8c0;
+	
+	color: #99a1a7;
+}
+
+#bookOffer .regular-checkbox:checked + label:after {
+	content: '\2714';
+	font-size: 25px;
+	position: absolute;
+	top: -5px;
+	left: 1px;
+	color: #99a1a7;
+}
+
+#bookOffer  .big-checkbox + label {
+	padding: 13px;
+}
+
+#bookOffer  .big-checkbox:checked + label:after {
+	font-size: 25px;
+	left: 6px;
+}
